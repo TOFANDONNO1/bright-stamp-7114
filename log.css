@@ -1,5 +1,4 @@
 div{
-    /* border: 1px solid gold; */
     width: 20%;
    margin: auto;
 }
@@ -15,8 +14,7 @@ div{
 }
 h1{
     text-align: center;
-    border-top: 2px solid #ccc;
-    border-bottom: 2px solid #ccc;
+ 
 }
 button{
     padding: 10px;

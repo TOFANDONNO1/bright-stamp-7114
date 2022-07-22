@@ -18,7 +18,5 @@ form.addEventListener("submit",function(e){
         alert("Don't have an account login failed signup first");
       break;
     }
-    // console.log(arrlogin[i].email);
  }
-    // console.log(arrlogin);
 });

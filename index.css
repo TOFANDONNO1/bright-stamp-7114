@@ -1,7 +1,7 @@
 
 #NAV{
     display: flex;
-    grid-template-rows: repeat(1,11fr);
+
     justify-content: center;
     align-items: center;
     width: 70%;
