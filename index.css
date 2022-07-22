@@ -1,23 +1,13 @@
-/* body{
-    background-size: cover;
-    background-position:center;
-} */
+
 #NAV{
     display: flex;
-
-    /* grid-template-columns: repeat(11,1fr); */
     grid-template-rows: repeat(1,11fr);
-    /* gap: 15px; */
     justify-content: center;
     align-items: center;
     width: 70%;
     margin: auto;
-text-align: center;
     position: sticky;
-    /* font-size: 0PX; */
-    /* text-decoration: ; */
 top: 0PX;
-    /* text-decoration: underline; */
     border-bottom: 1PX solid black;
 }
 #NAV ul{
@@ -51,46 +41,32 @@ a{
 }
 #NAV ul li:hover .news ul li {
     margin: 15PX;
-    /* background-color: aqua; */
-    /* width: 100%; */
+  
     margin-left: -25px;
-    /* padding: 10PX; */
+ 
     justify-content: left;
    text-align: left;
 }
-/* #NAV ul li:hover .news ul li a{
-    margin: 15PX;
-    text-align: left;
-} */
 .news{
     display: none;
   
 }
 #trial{
- 
     background-color:blue;
-    /* color: white; */
     padding: 10px 40px;
     border-radius: 10px;
     border: 0px;
     margin: 2PX;
-  
-    /* margin-left: 45px; */
-    /* font-size: 20px; */
 }
 #trial>a{
-    color:white;
-    text-decoration: none;
+    color:white;  
 }
 #sub{font-size: 20px;
     background-color:yellow;
     color:black;
-    /* padding: 10px 20px; */
     border-radius: 10px;
     border: 0px;
     margin: 10PX;
-
-    /* margin-left: 5px; */
 }
 #sub>a{
     text-decoration: none;
@@ -99,8 +75,6 @@ a{
     padding: 10px 40px;
     border-radius: 10px;
     margin: 10PX;
-
-    /* margin-left: 25px; */
 }
 #log>a{
     text-decoration: none;
@@ -112,7 +86,6 @@ a{
     margin: auto;
 }
 #HEAD>div+div{
-    /* background-color: rebeccapurple; */
    display: flex;
    justify-content: center;
    align-items: center;
@@ -120,12 +93,7 @@ a{
 }
 #homepagetop{
 display: flex;
-
 margin: auto;
-/* padding-left: 300px; */
-/* justify-content: center; */
-/* align-items: center; */
-/* text-align: left; */
 width: 70%;
 gap: 50px;
 }
@@ -248,10 +216,9 @@ margin: 13px;
 }
 #bottom1>div:nth-child(1){
     display: flex;
-    
-    
     font-size: 20px;
-}#bottom1>div:nth-child(1)>p{
+}
+#bottom1>div:nth-child(1)>p{
 margin:9px;
 }#bottom1>div:nth-child(2){
     display: flex;
@@ -262,9 +229,6 @@ margin:9px;
 }
 #bottom1>div:nth-child(3){
     display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    /* gap: 12px; */
     font-size: 20px;
 }
 #bottom1>div:nth-child(4){
