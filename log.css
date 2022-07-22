@@ -1,0 +1,37 @@
+div{
+    /* border: 1px solid gold; */
+    width: 20%;
+   margin: auto;
+}
+#form{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+#form>input{
+    margin: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+}
+button{
+    padding: 10px;
+border: 0PX;
+/* background: transparent; */
+}
+#Next{
+    background-color:blue;
+    color: white;
+    font-size: 20px;
+margin-top: 10px;
+}
+#signup{
+    background: transparent;
+}
+p{
+    text-align: center;
+}
