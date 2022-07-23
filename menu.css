@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(108, 91, 160);
+}
+div>a{
+    background: transparent;
+    border: 0px;
+    color: white;
+    text-decoration: none;
+}
+#firsth2{
+display: flex;
+background-color: rgb(52, 52, 101);
+margin: 5px;
+}
+#firsth2 h2{
+    margin: 10px;
+    color: white;
+}
+    #firsth2 h2:nth-child(1){
+        color: yellow;
+    }
+    #h2s{
+        display: grid;
+    color: white;
+        grid-template-columns: repeat(4,1fr);
+    }
+#button2{
+    background-color:gray;
+    display: flex;
+    padding: 20px;
+
+    /* grid-template-columns: repeat(); */
+    /* height: 55px; */
+}
+#button2>div{
+    display: flex;
+    margin: 10px;
+}
+#button2>div>div{
+    display: flex;
+    margin: 10px;
+    color: white;
+}
+#lastbutton2{
+
+    text-align: center;
+}

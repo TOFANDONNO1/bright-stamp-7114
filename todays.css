@@ -1,0 +1,48 @@
+#todaystop{
+    background-color: rgb(12, 26, 119);
+    width: 70%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:auto;
+    
+}
+#todaystop>div>h1{color: white;
+
+}
+#todaystop>div>input{
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: 0px;
+    font-size:20px;
+}
+#onlyp{
+    width: 70%;
+    margin: auto;
+}
+.punder{
+    width: 70%;
+    display: flex;
+    /* grid-template-columns: repeat(2,1fr); */
+    margin: auto;
+}
+.punderdivs{
+    display: grid;
+    width: 75%;
+    color: white;
+    font-size: 25px;
+
+    grid-template-columns: repeat(7,1fr);
+}
+.punderdivs>div{background-color: rgb(12, 26, 119);
+margin: 5px;}
+#p{
+    display: grid;
+    width:  75%;
+    
+}#p>p{
+    margin: 2px;
+    background-color: aquamarine;
+}
