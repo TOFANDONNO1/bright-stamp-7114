@@ -114,11 +114,13 @@ top: 0PX;
     padding: 10px 40px;
     border-radius: 10px;
     margin: 10PX;
-
+ 
 }
 #log>a{
     text-decoration: none;
 
+     /* position: absolute;
+    z-index: 1000; */
   
     /* margin-left: 25px; */
 
@@ -213,7 +215,7 @@ box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     /* background-color: rebeccapurple; */
     /* box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; */
 }
-#home3>div:nth-child(1)>img,#home3>div:nth-child(3)>img{
+#home3>div:nth-child(1)>img,#home3>div:nth-child(3)>img,#home3>div:nth-child(4)>img{
     width: 100%;
 }
 #home11{
