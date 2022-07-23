@@ -15,5 +15,7 @@ form.addEventListener("submit",function(event){
    console.log(obj)
    arrsignup.push(obj);
 localStorage.setItem("signup",JSON.stringify(arrsignup)); 
+alert("signup saved successfully");
+window.location.href="index.html"
     }
 });

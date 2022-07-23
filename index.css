@@ -3,12 +3,8 @@
 #NAV{
     display: flex;
 
-
-#NAV{
-    display: flex;
-
     /* grid-template-columns: repeat(11,1fr); */
-    grid-template-rows: repeat(1,11fr);
+    /* grid-template-rows: repeat(1,11fr); */
     /* gap: 15px; */
 
     justify-content: center;
@@ -155,14 +151,14 @@ gap: 50px;
 }
 
 
-margin: auto;
+/* margin: auto; */
 /* padding-left: 300px; */
 /* justify-content: center; */
 /* align-items: center; */
 /* text-align: left; */
-width: 70%;
-gap: 50px;
-}
+/* width: 70%;
+gap: 50px; */
+/* } */
 
 
 #home{
