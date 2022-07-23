@@ -5,6 +5,7 @@ let arrlogin=JSON.parse(localStorage.getItem("signup"))||[];
 
 form.addEventListener("submit",function(e){
     e.preventDefault();
+    
  for(let i=0;i<arrlogin.length;i++){
     if(arrlogin[i].email==document.getElementById("email").value)  {
         alert("login successful")
@@ -22,5 +23,5 @@ form.addEventListener("submit",function(e){
  }
 });
 
-let 
+
 
