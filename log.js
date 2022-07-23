@@ -1,3 +1,4 @@
+
 let form=document.getElementById("form");
 
 let arrlogin=JSON.parse(localStorage.getItem("signup"))||[];
@@ -20,3 +21,6 @@ form.addEventListener("submit",function(e){
     }
  }
 });
+
+let 
+

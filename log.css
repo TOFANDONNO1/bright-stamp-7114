@@ -1,4 +1,8 @@
 div{
+
+
+    border: 1px solid gold;
+
     width: 20%;
    margin: auto;
 }
@@ -14,7 +18,9 @@ div{
 }
 h1{
     text-align: center;
- 
+
+
+
 }
 button{
     padding: 10px;
